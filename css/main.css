@@ -13,5 +13,14 @@ margin: 0;
 }
 
 img {
-  width: 100%;
+  width: 20%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
 }
