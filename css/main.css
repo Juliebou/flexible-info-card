@@ -20,6 +20,7 @@ img {
 h2 {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 ul {
@@ -32,16 +33,35 @@ li {
   display: flex;
   padding: .5rem;
   align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 
 hgroup {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-justify-content: flex-start;
+  justify-content: flex-start;
+  width: 16rem;
 }
 
 h3, h4 {
   padding: 0;
   margin: 0;
+}
+
+p {
+  display: flex;
+  flex-grow: 1;
+  padding-right: 2rem;
+  margin: 0;
+  width: 24rem;
+}
+
+li a {
+  text-decoration: none;
+  border: 2px solid #444;
+  background-color: #444;
+  padding: .5rem 1rem;
+  color: #fff;
 }
