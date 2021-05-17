@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #ccc;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
@@ -11,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #ccc;
 }
 
 img {
@@ -18,10 +18,34 @@ img {
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+ text-align: center;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 .5rem;
+}
+
+ul li {
+  display: flex;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+p {
+  width: 24rem;
+}
+
+li a {
+  text-decoration: none;
+  background-color: #444;
+  padding: .5rem 1rem;
+  color: #fff;
+
+/*
 
 ul {
   display: flex;
@@ -65,3 +89,4 @@ li a {
   padding: .5rem 1rem;
   color: #fff;
 }
+*/
