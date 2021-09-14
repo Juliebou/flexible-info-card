@@ -19,8 +19,8 @@ img {
 }
 
 h2 {
- text-align: center;
- padding-top: .6rem;
+  text-align: center;
+  padding-top: .6rem;
 }
 
 ul {
@@ -62,3 +62,4 @@ a {
   background-color: #444;
   padding: .5rem 1rem;
   color: #fff;
+}
